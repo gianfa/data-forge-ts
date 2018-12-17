@@ -38,7 +38,7 @@ If you notice any problems in this documentation [please log an issue](https://g
     - [Working with CSV data](#working-with-csv-data)
   - [Working with JSON files](#working-with-json-files)
     - [Reading JSON files](#reading-json-files)
-      - [Ayncrhonous version](#ayncrhonous-version)
+      - [Synchronous version](#syncrhonous-version)
       - [Asynchronous version](#asynchronous-version-2)
     - [Writing JSON files](#writing-json-files)
       - [Syncrhonous version](#syncrhonous-version)
@@ -512,7 +512,7 @@ You can stringify a dataframe to CSV by calling `toCSV`:
 
 ### Reading JSON files
 
-#### Ayncrhonous version
+#### Synchronous version
 
     var df = dataForge.readFileSync('some-json-file.json')
         .parseJSON();
